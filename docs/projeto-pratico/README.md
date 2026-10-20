@@ -27,10 +27,12 @@ O Cotuba gera e-books a partir de Markdown. O Cotubify é o cenário de arquitet
 ## Entregas e validação
 
 - [x] Guias e requisitos conferidos.
-- [ ] CLI: PDF, EPUB e site HTML com metadados e capítulos ordenados.
-- [ ] Domínio imutável, DIP, CDI e seleção por qualificador.
-- [ ] jMolecules/ArchUnit, plugins, composição e interfaces segregadas.
-- [ ] Módulos Maven e JPMS, execução e testes documentados.
-- [ ] C4, ADRs de geração assíncrona, cache e pagamentos idempotentes.
+- [x] CLI: PDF, EPUB e site HTML com metadados e capítulos ordenados.
+- [x] Domínio imutável, DIP, CDI e seleção por qualificador.
+- [x] jMolecules/ArchUnit, plugins, composição e interfaces segregadas.
+- [x] Módulos Maven e JPMS, execução e testes documentados.
+- [x] C4, ADRs de geração assíncrona, cache e pagamentos idempotentes (modelagem, sem integração real).
+
+Entrega e comandos: [README da prática](../../projeto/README.md). Verificações executadas: [VALIDACAO.md](../../projeto/VALIDACAO.md). A implementação é uma adaptação própria, não reprodução literal de código da tela; as diferenças estão documentadas.
 
 Implementação na branch `projeto-pratico`. A base indicada pela disciplina é [unipds-projetos/modulo5-projeto-cotuba](https://github.com/unipds-projetos/modulo5-projeto-cotuba), com Java 25/Maven. Não se deve copiar a rotina legada que apaga recursivamente o destino de saída; a nossa prática deve recusar sobrescritas destrutivas.
