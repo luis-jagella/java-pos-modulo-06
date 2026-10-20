@@ -1,0 +1,27 @@
+name: Cotuba CI
+on:
+  push:
+    branches: [main, projeto-pratico]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+          cache: maven
+      - name: Core, arquitetura e integração
+        run: mvn -B -ntp -f projeto/cotuba/pom.xml clean install
+      - name: Plugins externos
+        run: |
+          mvn -B -ntp -f projeto/plugins/tema-css/pom.xml clean verify
+          mvn -B -ntp -f projeto/plugins/estatisticas/pom.xml clean verify
+      - name: JAR, plugins, JPMS e encapsulamento
+        run: bash projeto/scripts/smoke.sh
