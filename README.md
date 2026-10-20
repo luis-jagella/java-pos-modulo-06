@@ -19,7 +19,7 @@ O portal chama a seção prática de **Projeto Prático**; ela não foi renomead
 
 Títulos com `...` foram copiados como aparecem na lista do portal e aguardam confirmação pelo material da aula. A introdução pôde ser confirmada pelo cabeçalho já aberto. Design Patterns aparece em duas aulas diferentes; a numeração preserva essa separação.
 
-- [ ] Aula 01 — Software Design & System Design — Introdução.
+- [x] [Aula 01 — Software Design & System Design — Introdução](docs/modulo-01/aula-01.md).
 - [ ] Aula 02 — PRINCÍPIOS BÁSICOS DE SYSTEM...
 - [ ] Aula 03 — System Design e Documentação.
 - [ ] Aula 04 — INTRODUÇÃO A BANCO DE DADOS ...
@@ -71,7 +71,7 @@ Os episódios serão registrados em [docs/podcasts](docs/podcasts/README.md). O 
 - Slides.
 - Guia do Projeto Prático 01 e 02.
 
-Os materiais foram identificados na página; ainda não foram analisados para definir os requisitos do projeto. Não há resumo de aula concluído nesta estrutura inicial.
+Os materiais foram identificados na página; ainda não foram analisados para definir os requisitos do projeto. A aula 01 já possui notas a partir do resumo enviado; as demais aulas permanecem pendentes.
 
 ## Fluxo de estudo
 

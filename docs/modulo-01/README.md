@@ -1,6 +1,8 @@
 # Módulo 01 — Software Design e System Design
 
-Status: estrutura preparada; notas ainda pendentes.
+Status: aula 01 documentada; aulas 02 a 12 pendentes.
+
+- [x] [Aula 01 — Software Design & System Design: Introdução](aula-01.md).
 
 São 12 aulas. A lista e os títulos disponíveis estão no [README principal](../../README.md#módulo-01--aulas-teóricas).
 
