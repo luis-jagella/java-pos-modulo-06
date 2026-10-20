@@ -45,21 +45,21 @@ Os cabeçalhos identificam resoluções de **14 tarefas em 15 vídeos**: a taref
 - [x] [Projeto — Vídeo 05: OCP e geração HTML](docs/projeto-pratico/video-05.md).
 - [x] [Projeto — Vídeo 06: Imutabilidade e Builder](docs/projeto-pratico/video-06.md).
 - [x] [Projeto — Vídeo 07: C4 do Cotubify](docs/projeto-pratico/video-07.md).
-- [ ] Projeto — Vídeo 08: resolução da tarefa 08.
-- [ ] Projeto — Vídeo 09: resolução da tarefa 09.
-- [ ] Projeto — Vídeo 10: resolução da tarefa 10.
-- [ ] Projeto — Vídeo 11: resolução da tarefa 11.
-- [ ] Projeto — Vídeo 12: resolução da tarefa 12.
-- [ ] Projeto — Vídeo 13: resolução da tarefa 13, parte 01.
-- [ ] Projeto — Vídeo 14: resolução da tarefa 13, parte 02.
-- [ ] Projeto — Vídeo 15: resolução da tarefa 14.
+- [x] [Projeto — Vídeo 08: jMolecules e ArchUnit](docs/projeto-pratico/video-08.md).
+- [x] [Projeto — Vídeo 09: Plugins com ServiceLoader](docs/projeto-pratico/video-09.md).
+- [x] [Projeto — Vídeo 10: LSP e composição](docs/projeto-pratico/video-10.md).
+- [x] [Projeto — Vídeo 11: ISP e segregação de plugins](docs/projeto-pratico/video-11.md).
+- [x] [Projeto — Vídeo 12: Escalabilidade do Cotubify](docs/projeto-pratico/video-12.md).
+- [x] [Projeto — Vídeo 13: Módulos Maven e JPMS — parte 1](docs/projeto-pratico/video-13.md).
+- [x] [Projeto — Vídeo 14: Módulos Maven e JPMS — parte 2](docs/projeto-pratico/video-14.md).
+- [x] [Projeto — Vídeo 15: Resiliência de pagamentos](docs/projeto-pratico/video-15.md).
 
 Veja o [plano do projeto](docs/projeto-pratico/README.md). O código é acompanhado na branch `projeto-pratico`; documentação de aula não equivale a implementação validada.
 
 ## Podcasts e avaliação
 
-- [ ] Podcast 01 — tema a confirmar (lista do portal: “POSCAST 01”).
-- [ ] Podcast 02 — tema a confirmar (lista do portal: “POSCAST 02”).
+- [x] [Podcast 01 — Fazendo as pazes com o legado — conceitos](docs/podcasts/podcast-01.md).
+- [x] [Podcast 02 — Fazendo as pazes com o legado — ferramentas e prática](docs/podcasts/podcast-02.md).
 - [ ] Preparar revisão da disciplina.
 
 Os episódios serão registrados em [docs/podcasts](docs/podcasts/README.md). O resultado da avaliação só deve ser registrado quando confirmado pelo aluno.
