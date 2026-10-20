@@ -29,7 +29,7 @@ Uso de unmodifiable nas coleções internas para assegurar que nenhuma alteraç�
 
 A discussão aprofunda-se no uso de recursos modernos do Java (versões recentes) para imutabilidade estrita:
 
-Records: Utilizados para representar dados imutáveis de forma concisa. O uso de records elimina a necessidade boilerplate de getters, equals, hashCode e toString.
+Records: Geram acessores, equals, hashCode e toString. Campos finais não tornam automaticamente imutáveis os objetos referenciados.
 
 Cuidados com Records e Construtores: Quando atributos precisam ser validados ou copiados defensivamente (como listas internas), recorre-se a construtores compactos ou canônicos.
 
@@ -55,7 +55,7 @@ Resposta: É uma abordagem de design (inspirada em Michael Feathers) onde o dese
 
 Qual é a principal diferença entre utilizar Collectors.toList() tradicional e os métodos modernos de coleta como toList() em fluxos (Streams)?
 
-Resposta: Em muitas versões e contextos, Collectors.toList() pode retornar uma lista mutável convencional, enquanto o método .toList() nativo introduzido nas versões mais recentes do Java retorna uma lista rigorosamente imutável (unmodifiable).
+Resposta: `Collectors.toList()` não garante mutabilidade ou implementação específica; `Stream.toList()` retorna uma lista não modificável. Isso não torna os elementos profundamente imutáveis.
 
 Por que o uso excessivo de métodos setters em classes de domínio é desencorajado em estágios avançados de projeto?
 
@@ -63,7 +63,7 @@ Resposta: Porque os setters permitem que o estado do objeto seja modificado a qu
 
 Como o uso de Records no Java auxilia na implementação de imutabilidade?
 
-Resposta: Os Records definem classes cujos campos são implicitamente final e imutáveis, gerando automaticamente construtores, métodos de acesso (getters implícitos), equals, hashCode e toString, reduzindo o boilerplate e garantindo que o estado não seja alterado após a instanciação.
+Resposta: Records têm campos finais e acessores gerados, reduzindo boilerplate. Imutabilidade profunda depende dos componentes e de cópias defensivas quando necessárias.
 
 O que deve ser evitado ao expor coleções internas em objetos imutáveis?
 

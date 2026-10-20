@@ -9,11 +9,11 @@ Esta aula representa a segunda parte do módulo, dando continuidade aos conceito
 
 O Impacto do Código Ruim e o Débito Técnico
 
-Estatísticas de Produtividade: Estudos indicam que aproximadamente 42% do tempo semanal de um desenvolvedor é gasto lidando com problemas técnicos e código de baixa qualidade. Em termos de mercado global, isso representa um custo multibilionário.
+Produtividade: A análise automática menciona estatísticas sobre tempo perdido com problemas técnicos, mas as pesquisas e amostras não foram verificadas. A ideia de estudo é relacionar dívida técnica ao custo de mudança, não memorizar percentuais.
 
 A Teoria da Janela Partida (Windows Broken): Aplicada à engenharia de software, a teoria demonstra que ambientes e códigos desorganizados convidam a mais degradação e erros. O instrutor cita o exemplo clássico dos carros no Bronx: um veículo intacto deixado na rua permanece seguro por mais tempo do que um veículo com uma janela quebrada, que rapidamente é totalmente vandalizado. No dia a dia, ver código ruim diminui o rigor ético e profissional do desenvolvedor ("efeito pia suja").
 
-Débito Técnico e Legado Prematuro: O débito técnico acumulado torna o software excessivamente lento e caro a longo prazo. O "legado prematuro" é definido como código que se torna ilegível ou inviável de manter em menos de 10 anos. Relatórios da indústria (como o Chaos Report e estudos da McKinsey e Oxford) apontam que apenas cerca de 31% dos projetos de software são considerados plenamente bem-sucedidos (dentro do prazo, orçamento e escopo esperado), enquanto a maioria enfrenta sérios desafios ou falhas.
+Débito Técnico e Legado Prematuro: Complexidade acumulada pode tornar a manutenção cara muito antes do esperado. Não há neste material um prazo universal que defina legado nem uma taxa de sucesso de projetos validada pelas fontes originais.
 
 O Papel da Arquitetura e das Metodologias Ágeis: O instrutor critica a tendência de algumas metodologias ágeis de ignorarem a figura do arquiteto de software em prol de papéis estritamente gerenciais, transformando o "ágil" em modelos em cascata disfarçados de ciclos curtos, o que frequentemente prejudica a visão sistêmica e a qualidade de longo prazo.
 
@@ -79,7 +79,7 @@ Resposta: É uma classe monolítica excessivamente grande que centraliza lógica
 
 Pergunta: Segundo os dados apresentados na aula, qual é o impacto aproximado do débito técnico na rotina dos desenvolvedores?
 
-Resposta: Os desenvolvedores gastam em média cerca de 42% do seu tempo semanal lidando com problemas técnicos, refatorações corretivas e débito técnico acumulado.
+Resposta: A mensagem é que dívida técnica consome capacidade de evolução. O percentual incluído pela análise automática não foi confirmado e não deve ser usado como dado universal.
 
 ## Ressalvas de estudo
 

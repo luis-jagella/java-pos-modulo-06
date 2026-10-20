@@ -60,9 +60,13 @@ Veja o [plano do projeto](docs/projeto-pratico/README.md). O código é acompanh
 
 - [x] [Podcast 01 — Fazendo as pazes com o legado — conceitos](docs/podcasts/podcast-01.md).
 - [x] [Podcast 02 — Fazendo as pazes com o legado — ferramentas e prática](docs/podcasts/podcast-02.md).
-- [ ] Preparar revisão da disciplina.
+- [x] [Preparar revisão da disciplina — 30 perguntas e roteiro](docs/revisao-final.md).
 
 Os episódios serão registrados em [docs/podcasts](docs/podcasts/README.md). O resultado da avaliação só deve ser registrado quando confirmado pelo aluno.
+
+## Entrega prática
+
+A implementação está na branch `projeto-pratico`, no [PR #1](https://github.com/luis-jagella/java-pos-modulo-06/pull/1), sem merge automático. Veja os [comandos de execução](https://github.com/luis-jagella/java-pos-modulo-06/blob/projeto-pratico/projeto/README.md) e a [validação local](https://github.com/luis-jagella/java-pos-modulo-06/blob/projeto-pratico/projeto/VALIDACAO.md). O Cotuba CLI está implementado; o Cotubify é modelagem de arquitetura, não um serviço de pagamentos em produção.
 
 ## Materiais disponíveis no portal
 

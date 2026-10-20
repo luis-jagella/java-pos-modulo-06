@@ -11,7 +11,7 @@ Spring Framework: Utiliza suas próprias anotações e escopos configurados.
 
 CDI (Contexts and Dependency Injection): Padrão amplamente utilizado no ecossistema Java EE/Jakarta EE.
 
-Micronaut: Um framework moderno mencionado pelo instrutor (citando interações com Green Richter, um dos criadores), que caminha para ampliar o suporte ao CDI Lite, tornando-se cada vez mais rico em recursos de inversão de controle.
+Micronaut: Outro framework citado na discussão sobre injeção. Os nomes próprios e a evolução do suporte mencionados na análise automática não foram confirmados; não inferir compatibilidade de versões a partir do resumo.
 
 ### 2. O Padrão Singleton
 
@@ -63,7 +63,7 @@ Resposta: A proliferação de grandes blocos condicionais (if-else ou switch-cas
 
 Pergunta: Como o escopo Singleton se comporta por padrão em frameworks como o CDI?
 
-Resposta: Por padrão, os recursos costumam ser inicializados de forma lazy (preguiçosa), sendo instanciados apenas no momento exato em que são necessários pela primeira vez.
+Resposta: Não confundir Singleton com escopo de aplicação. Em CDI, o ciclo de vida depende do escopo e dos proxies; `@ApplicationScoped` e `@Singleton` são distintos. Consulte a revisão técnica antes de generalizar inicialização lazy para todo escopo.
 
 Pergunta: Qual é a vantagem de utilizar o padrão Observer em comparação com chamadas diretas entre serviços?
 

@@ -16,9 +16,9 @@ Em arquiteturas stateless, a instância de aplicação não precisa reter estado
 
 ### 3. Tipos de Bancos de Dados e Paradigmas
 
-Bancos de Dados Relacionais (SQL): Surgidos na década de 1970 com forte embasamento em normalização. São maduros, altamente eficientes e escalam verticalmente (aumentando o poder computacional da máquina). Garantem forte consistência.
+Bancos de Dados Relacionais (SQL): Modelo baseado em relações e operações sobre dados estruturados. Normalização e transações são temas centrais. Escala e consistência dependem do produto, isolamento e topologia; não são determinadas apenas por usar SQL.
 
-Bancos de Dados Não Relacionais (NoSQL): Focam primariamente na escalabilidade horizontal (distribuição em múltiplos nós). Não possuem um padrão universal único como o SQL, o que exige maior carga cognitiva dos desenvolvedores. Dividem-se nas seguintes categorias principais:
+Bancos de Dados Não Relacionais (NoSQL): Família de modelos com diferentes compromissos de consulta, distribuição e consistência. Não há um único comportamento comum a todos. Categorias discutidas:
 
 Chave-Valor (Key-Value): Estruturas semelhantes a mapas ou dicionários (ex: Redis, Memcached, Apache Ignite). Ideais para sessões de usuário, cache de segundo nível e contadores.
 
@@ -28,11 +28,11 @@ Documento (Document): Armazenam dados em formatos JSON ou XML (ex: MongoDB). Per
 
 Grafo (Graph): Focados em relacionamentos complexos, direcionamentos e propriedades bidirecionais (ex: Neo4j, Amazon Neptune). Utilizados em motores de recomendação e detecção de fraudes.
 
-NewSQL e Multivalue: Soluções híbridas que trazem recursos relacionais a bancos NoSQL (ou vice-versa, como o PostgreSQL suportando JSON) e bancos multivalue (como o Oracle) que suportam múltiplos modelos de dados simultaneamente.
+NewSQL e bancos multimodelo: A discussão aproxima transações relacionais e distribuição, além de produtos que suportam mais de um modelo de dados. Não confundir multimodelo com o termo específico multivalue.
 
 ### 4. Teorema de CAP e Trade-offs
 
-O Teorema de CAP dita que um sistema distribuído pode garantir no máximo duas das três propriedades simultaneamente: Consistência (Consistency), Disponibilidade (Availability) e Tolerância a Partição (Partition Tolerance). Bancos relacionais tradicionais priorizam consistência, enquanto muitos NoSQL sacrificam parte da consistência em prol da disponibilidade e tolerância a falhas.
+CAP relaciona consistência, disponibilidade e partições de rede. Durante uma partição, não é possível garantir simultaneamente consistência forte e disponibilidade conforme as definições do teorema. Não é uma escolha livre de duas letras, nem uma divisão automática entre SQL e NoSQL. A [revisão técnica](../revisao-tecnica.md) detalha a ressalva.
 
 ### 5. Estratégias de Arquitetura e Processamento
 
@@ -64,7 +64,7 @@ Resposta: Garantir a retenção de informações e o conhecimento humano ao long
 
 Qual é a principal diferença de escalabilidade entre bancos relacionais e não relacionais?
 
-Resposta: Bancos relacionais escalam primordialmente de forma vertical (aumentando os recursos da máquina), enquanto os não relacionais focam na escalabilidade horizontal (distribuição em múltiplos nós).
+Resposta: Escala vertical aumenta recursos de uma máquina; horizontal distribui carga por nós. Produtos relacionais e não relacionais podem oferecer essas estratégias com compromissos distintos; é preciso avaliar a implementação.
 
 Em quais cenários o modelo de banco de dados do tipo Grafo é mais recomendado?
 
@@ -72,7 +72,7 @@ Resposta: Em cenários que exigem mapeamento profundo de relacionamentos e propr
 
 O que estabelece o Teorema de CAP em sistemas distribuídos?
 
-Resposta: Que um sistema distribuído pode garantir simultaneamente no máximo duas entre três propriedades: Consistência, Disponibilidade e Tolerância a Partição.
+Resposta: Durante partição de rede, há conflito entre disponibilidade e consistência forte nas definições do teorema.
 
 Qual é a principal distinção operacional entre um Data Warehouse e um Data Lake?
 
