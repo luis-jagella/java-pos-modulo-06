@@ -5,7 +5,7 @@
 Resumo Detalhado: Design Patterns, Analogias Musicais e Síntese de Princípios
 Introdução e Conexão Teórica
 
-Esta aula encerra o ciclo focado em Software Design, estabelecendo uma ponte direta entre os princípios de escrita de código limpo discutidos nas aulas anteriores e a aplicação correta de Design Patterns (Padrões de Projeto). O palestrante (Otávio Santana) utiliza uma analogia musical refinada para explicar como os desenvolvedores devem abordar os padrões de projeto em sua carreira.
+Esta aula estabelece uma ponte entre os princípios discutidos nas aulas anteriores e Design Patterns, preparando a prática da aula 10. Otávio Santana usa uma analogia musical para explicar como abordar padrões de projeto.
 
 A Analogia com a Teoria Musical
 
