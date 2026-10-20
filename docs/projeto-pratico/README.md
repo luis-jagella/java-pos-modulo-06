@@ -1,18 +1,36 @@
-# Projeto Prático
+# Projeto Prático — Cotuba e Cotubify
 
-Status: planejamento inicial, sem implementação.
+Fonte de requisitos: [quadro público da disciplina](https://trello.com/b/XamAmgsf/projeto-pratico-unipds-software-design-e-system-design), indicado pelo Guia do Projeto Prático 02. O Guia 01 contém orientações genéricas de Trello. Não é necessário copiar o quadro para estudar.
 
-A seção possui 15 vídeos com o mesmo título no portal. Existem dois guias de projeto disponíveis, ainda a analisar. Não foram presumidos framework, domínio, banco ou arquitetura da implementação.
+O Cotuba gera e-books a partir de Markdown. O Cotubify é o cenário de arquitetura para uma plataforma de autopublicação; os exercícios de C4, escala e pagamentos são **modelagem**, não uma plataforma de produção implementada.
 
-## Antes de iniciar o código
+## Aulas e tarefas
 
-- [ ] Conferir os dois guias e identificar a relação entre eles.
-- [ ] Registrar objetivo, requisitos e entregáveis.
-- [ ] Conferir versões e ferramentas usadas nas aulas.
-- [ ] Definir instruções de execução e validação.
+| Vídeo | Tarefa | Tema | Notas |
+| --- | --- | --- | --- |
+| 01 | 01 | Ambiente e diagnóstico do Cotuba | [Resumo](video-01.md) |
+| 02 | 02 | SRP e coesão | [Resumo](video-02.md) |
+| 03 | 03 | DDD tático | [Resumo](video-03.md) |
+| 04 | 04 | DIP e injeção com CDI/Weld | [Resumo](video-04.md) |
+| 05 | 05 | OCP e geração HTML | [Resumo](video-05.md) |
+| 06 | 06 | Imutabilidade e Builder | [Resumo](video-06.md) |
+| 07 | 07 | C4 do Cotubify | [Resumo](video-07.md) |
+| 08 | 08 (opcional) | jMolecules e ArchUnit | [Resumo](video-08.md) |
+| 09 | 09 (opcional) | Plugins com ServiceLoader | [Resumo](video-09.md) |
+| 10 | 10 (opcional) | LSP e composição | [Resumo](video-10.md) |
+| 11 | 11 (opcional) | ISP e segregação de plugins | [Resumo](video-11.md) |
+| 12 | 12 | Escalabilidade do Cotubify | [Resumo](video-12.md) |
+| 13 | 13 | Módulos Maven e JPMS — parte 1 | [Resumo](video-13.md) |
+| 14 | 13 | Módulos Maven e JPMS — parte 2 | [Resumo](video-14.md) |
+| 15 | 14 | Resiliência de pagamentos | [Resumo](video-15.md) |
 
-## Acompanhamento
+## Entregas e validação
 
-Desenvolver na branch `projeto-pratico`. Para cada vídeo, registrar o número de 01 a 15, as alterações, como executar, verificações realizadas e dúvidas. O checklist central fica no [README](../../README.md#projeto-prático--15-vídeos).
+- [x] Guias e requisitos conferidos.
+- [ ] CLI: PDF, EPUB e site HTML com metadados e capítulos ordenados.
+- [ ] Domínio imutável, DIP, CDI e seleção por qualificador.
+- [ ] jMolecules/ArchUnit, plugins, composição e interfaces segregadas.
+- [ ] Módulos Maven e JPMS, execução e testes documentados.
+- [ ] C4, ADRs de geração assíncrona, cache e pagamentos idempotentes.
 
-Quando houver uma entrega funcional e verificável, abrir PR para integrar à `main`. Esta estrutura inicial não representa um projeto implementado.
+Implementação na branch `projeto-pratico`. A base indicada pela disciplina é [unipds-projetos/modulo5-projeto-cotuba](https://github.com/unipds-projetos/modulo5-projeto-cotuba), com Java 25/Maven. Não se deve copiar a rotina legada que apaga recursivamente o destino de saída; a nossa prática deve recusar sobrescritas destrutivas.

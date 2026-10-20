@@ -1,8 +1,8 @@
-# Podcasts
+# Podcasts — Legado
 
-A disciplina contém dois episódios, identificados no portal como “POSCAST 01” e “POSCAST 02”. Os temas ainda precisam ser confirmados.
+Dois episódios com notas baseadas na legenda automática do player.
 
-- [ ] Registrar notas do episódio 01 em `podcast-01.md`.
-- [ ] Registrar notas do episódio 02 em `podcast-02.md`.
+- [Podcast 01 — Conceitos e estratégias](podcast-01.md).
+- [Podcast 02 — Ferramentas e modernização prática](podcast-02.md).
 
-Usar o [modelo de notas](../modelo-aula.md). Relatos e opiniões dos participantes devem ser identificados como tais, especialmente números e afirmações sobre mercado de trabalho.
+São títulos descritivos; no portal os episódios aparecem como POSCAST 01/02. Conselhos dependem de contexto e não constituem regras universais.
