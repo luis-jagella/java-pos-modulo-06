@@ -2,7 +2,7 @@
 
 Status: estrutura preparada; notas ainda pendentes.
 
-São 12 aulas. A lista e os títulos disponíveis estão no [README principal](../../README.md#modulo-01--aulas-teóricas).
+São 12 aulas. A lista e os títulos disponíveis estão no [README principal](../../README.md#módulo-01--aulas-teóricas).
 
 ## Organização das próximas notas
 
