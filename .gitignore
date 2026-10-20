@@ -1,0 +1,16 @@
+# Dados locais e segredos
+.env
+.env.*
+!.env.example
+
+# Mídia local de estudo
+*.mp3
+*.mp4
+*.wav
+
+# Saídas de compilação
+*.class
+out/
+target/
+build/
+node_modules/
